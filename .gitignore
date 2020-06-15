@@ -338,3 +338,9 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/SchoolDomain.DataModel/Migrations/202006150012400_RemoveCourseObjectFromSubject.resx
+/SchoolDomain.DataModel/Migrations/202006150012400_RemoveCourseObjectFromSubject.Designer.cs
+/SchoolDomain.DataModel/Migrations/202006150012400_RemoveCourseObjectFromSubject.cs
+/SchoolDomain.DataModel/Migrations/202006142346180_RemoveCourseIdFromSubject.resx
+/SchoolDomain.DataModel/Migrations/202006142346180_RemoveCourseIdFromSubject.Designer.cs
+/SchoolDomain.DataModel/Migrations/202006142346180_RemoveCourseIdFromSubject.cs

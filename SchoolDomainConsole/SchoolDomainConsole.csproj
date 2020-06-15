@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolDomain.Classes\SchoolDomain.Classes.csproj" />
+    <ProjectReference Include="..\SchoolDomain.DataModel\SchoolDomain.DataModel.csproj" />
+  </ItemGroup>
+
+</Project>
