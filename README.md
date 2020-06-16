@@ -18,6 +18,36 @@ This solution includes three projects:
 
 ```
 
+### Validating the EF Model
+
+```
+To validate the EF Model based on the Schema of the Classes provided, we can use the Entity Framework Power Tools.
+
+
+Usage:
+
+Power Tools installation (NuGet alternative):
+
+1. thedatafarm.com/data-access/installing-ef-power-tools-into-vs2015/
+
+
+Validation:
+
+1. Set up SchoolDomain.DataModel as the Startup Project,
+
+2. Execute the View Entity Data Model command,
+
+3. The SchoolDomainContext.edmx file showing up the Entity–relationship model, is created.
+
+ Relationships:
+
+ - One to Many relationship between School and Course
+ - One to Many relationship between Course and Subject
+ - One to Many relationship between Subject and Student
+ - One to One relationship between Studen and Course
+ - One to Many relationship between Student and Subject
+
+```
 
 ### Creating the Database
 
@@ -39,7 +69,7 @@ On Package Manager Console hit the following commands:
 
 ```
 
-Set the SchoolDomain Console as the Startup Project and Start.
+Set the SchoolDomain Console as the Startup Project and Start (CTRL + F5).
 
 ```
 
